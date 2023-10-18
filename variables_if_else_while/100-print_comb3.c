@@ -4,7 +4,7 @@
  *
  *Return: 0
  */
-int main()
+int main(void)
 {
 int number1 = 0;
 int number2 = 1;
@@ -26,5 +26,5 @@ number2 = 1;
 number1++;
 }
 putchar('\n');
-return 0;
+return (0);
 }
