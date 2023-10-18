@@ -16,7 +16,7 @@ number++;
 while (letter <= 'f')
 {
 putchar(letter);
-letter ++;
+letter++;
 }
 
 putchar('\n');
