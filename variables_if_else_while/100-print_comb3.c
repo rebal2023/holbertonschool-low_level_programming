@@ -9,7 +9,7 @@ int main(void)
 int number1 = 0;
 int number2 = 1;
 
-while ( number1 <10)
+while (number1 < 10)
 {
 while (number1 != number2 && number2 < 10)
 {
