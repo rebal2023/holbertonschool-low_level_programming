@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<main.h>
+#include</holbertonschool-low_level_programming/functions_nested_loops/main.h>
 /**
  *main - Entry point
  *
