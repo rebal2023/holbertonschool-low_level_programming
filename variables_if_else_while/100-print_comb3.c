@@ -17,8 +17,11 @@ if (number1 < number2)
 {
 putchar(number1 + '0');
 putchar(number2 + '0');
+if (number1 != 8)
+{
 putchar(',');
 putchar(' ');
+}
 }
 number2++;
 }
