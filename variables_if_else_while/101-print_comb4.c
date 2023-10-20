@@ -16,7 +16,8 @@ while (number1 != number2 && number2 < 10)
 {
 while (number2 != number3 && number3 < 10)
 {
-if (number1 < number2) {
+if (number1 < number2)
+{
 putchar(number1 + '0');
 putchar(number2 + '0');
 putchar(number3 + '0');
