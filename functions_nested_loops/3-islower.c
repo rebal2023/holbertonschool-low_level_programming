@@ -5,9 +5,9 @@
  * *Return: 0
  * */
 {
-int _islower(int c)
+int _islower(int c);
 {
-c = 'a';
+int c = 'a';
 if (islower(c))
 {
 return (1);
