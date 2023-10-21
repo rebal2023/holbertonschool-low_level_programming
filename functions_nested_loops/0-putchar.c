@@ -1,15 +1,9 @@
-#include<stdio.h>
-#include</holbertonschool-low_level_programming/functions_nested_loops/main.h>
+#include "main.h"
 /**
- *main - Entry point
- *
- *Return: 0
- */
-int _putchar(char c)
-{
-putchar(c);
-}
-
+ * *main - Entry point
+ * *
+ * *Return: 0
+ * */
 int main(void)
 {
 _putchar('_');
