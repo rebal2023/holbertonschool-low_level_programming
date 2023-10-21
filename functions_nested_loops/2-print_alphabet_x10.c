@@ -2,7 +2,7 @@
 /*
  *  * print_alphabet print from a to z  times
  *   */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 int i;
 for(i=0;i <= 10; i++)
