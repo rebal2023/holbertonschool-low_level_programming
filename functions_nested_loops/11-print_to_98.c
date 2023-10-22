@@ -29,9 +29,9 @@ for (i = n; i >= 97; i--)
 {
 if (i == 98)
 {
-printf("%i", i);
+printf("%d", i);
 }
-else if (d != 97)
+else if (i != 97)
 {
 printf("%d, ", i);
 }
