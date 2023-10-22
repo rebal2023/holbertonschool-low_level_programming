@@ -15,13 +15,25 @@ void times_table(void)
 	  int xy = x * y;
 
 
-	    
+	  if (y == 0)
+	    {
+	      _putchar((xy) + '0');
 	      _putchar(',');
+	    }
+	  else if (xy <= 9)
+	    {
 	      _putchar(' ');
-	      _putchar((xy / 10) + '0');
-	      _putchar((xy % 10) + '0');
-	    
+	      _putchar(' ');
+	      _putchar((xy) + '0');
+	      _putchar(',');
+	    }
+	  else if (xy > 9)
+	    {
+	      _putchar(' ');
+	      _putchar((xy) + '0');
+	    }
 	}
+      _putchar('\n');
     }
   _putchar('\n');
 }
