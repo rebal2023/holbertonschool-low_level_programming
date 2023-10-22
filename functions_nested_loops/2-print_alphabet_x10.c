@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_alphabet - print from a to z  times
+*print_alphabet_x10 - print from a to z  times
 */
 void print_alphabet_x10(void)
 {
