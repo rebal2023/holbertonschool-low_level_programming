@@ -17,31 +17,20 @@ int xy = x * y;
 if (y == 0)
 {
 _putchar((xy) + '0');
-_putchar(',');
 }
 else if (xy <= 9)
 {
 _putchar(' ');
 _putchar(' ');
 _putchar((xy) + '0');
-_putchar(',');
 }
 else if (xy > 9)
 {
-if (x == 9 && y == 9)
-{
 _putchar(' ');
 _putchar((xy / 10) + '0');
 _putchar((xy % 10) + '0');
 }
-else
-{
-_putchar(' ');
-_putchar((xy / 10) + '0');
-_putchar((xy % 10) + '0');
 _putchar(',');
-}
-}
 }
 _putchar('\n');
 }
