@@ -11,7 +11,7 @@ int last;
 last = c % 10;
 if (c < 0)
 {
-last=last * -1;
+last = last * -1;
 _putchar(last + '0');
 return (last);
 }
