@@ -21,11 +21,11 @@ if (n == 98)
 	}
       printf("\n");
     }
- else if
+ else
     {
       for (i = n; i > 97; i--)
 	{
-	      printf("%i, ", i);
+	      printf("%d, ", i);
 	}
       printf("\n");
     }
