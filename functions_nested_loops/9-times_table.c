@@ -30,7 +30,10 @@ _putchar(' ');
 _putchar((xy / 10) + '0');
 _putchar((xy % 10) + '0');
 }
+if (y != 9)
+{
 _putchar(',');
+}
 }
 _putchar('\n');
 }
