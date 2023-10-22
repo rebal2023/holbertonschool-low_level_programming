@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 *_isalpha - checks for alphabetic character
-*c - variable
+* @c: The character to be checked
 *Return: 1 or 0
 */
 int _isalpha(int c)
