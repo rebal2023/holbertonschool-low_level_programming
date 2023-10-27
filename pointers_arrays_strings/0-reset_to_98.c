@@ -2,9 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
- *
- * Return: Always 0.
+ * reset_to_98 - update value to 98 
  */
 
 void reset_to_98(int *n)
