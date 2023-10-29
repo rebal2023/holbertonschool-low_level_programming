@@ -10,6 +10,7 @@ int x = 0;
 
 while (s[x] != '\0')
 {
+_putchar(s[x]);
 x++;
 }
 while (x >= 1)
