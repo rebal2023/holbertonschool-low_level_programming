@@ -12,11 +12,11 @@ return (0);
 return (prime(x, x - 1));
 }
 /**
- * prime - check if int is prime using recursive
- * @x: integer
- * @y: iterator
- * Return: 0 or 1
- */
+* prime - check if int is prime using recursive
+* @x: integer
+* @y: iterator
+* Return: 0 or 1
+*/
 int prime(int x, int y)
 {
 if (y == 1)
