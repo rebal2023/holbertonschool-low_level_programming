@@ -23,7 +23,7 @@ else if (s1[x] > s2[x])
 {
 y = 13;
 }
-else if
+else
 {
 y= 0;
 }
