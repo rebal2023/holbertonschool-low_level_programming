@@ -16,7 +16,7 @@ else if (x < 0)
 {
 return (-1);
 }
-else if (y * y == n)
+else if (y * y == x)
 {
 return (y);
 }
