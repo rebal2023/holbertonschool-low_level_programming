@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _strchr - Entry point
+* _strchr -  function that locates a character in a string
 * @s: string
 * @c: character
 * Return: 0
