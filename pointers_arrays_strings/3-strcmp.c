@@ -25,7 +25,7 @@ y = 13;
 }
 else if
 {
-flag = 0;
+y= 0;
 }
 return (y);
 }
