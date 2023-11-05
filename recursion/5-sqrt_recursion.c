@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
 *_sqrt - function
-*@n: integer
-*@i: integer
+*@x: integer
+*@y: integer
 *Return: integer
 */
 int _sqrt(int x, int y)
@@ -27,10 +27,10 @@ return (_sqrt(x, y + 1));
 }
 /**
 *_sqrt_recursion - function that returns the natural square root of a nb
-*@n: integer
+*@x: integer
 *Return: integer
 */
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int x)
 {
 return (_sqrt(x, 1));
 }
