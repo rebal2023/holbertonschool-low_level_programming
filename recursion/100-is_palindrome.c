@@ -37,7 +37,7 @@ int p(char *s, int x, int len)
 {
 if (*(s + x) != *(s + len - 1))
 return (0);
-if (i >= len)
+if (x >= len)
 return (1);
 return (p(s, x + 1, len - 1));
 }
