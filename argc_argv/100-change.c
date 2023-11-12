@@ -25,7 +25,7 @@ printf("0\n");
 return (0);
 }
 for (x = 0; x < 5 && num >= 0; x++)
-{ 
+{
 while (num >= coins[x])
 {
 result++;
