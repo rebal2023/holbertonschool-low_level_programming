@@ -3,10 +3,10 @@
 #include <stdlib.h>
 /**
 * str_concat - function that concatenates two strings
- * @s1: string 1
- * @s2: string 2
- * Return: concatenation of s1 & s2
- */
+* @s1: string 1
+* @s2: string 2
+* Return: concatenation of s1 & s2
+*/
 char *str_concat(char *s1, char *s2)
 {
 int count = 0, count1 = 0;
