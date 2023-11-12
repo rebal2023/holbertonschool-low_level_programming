@@ -41,7 +41,7 @@ if (n < count2)
 {
 for (i = count1, j = 0; j < n; i++, j++)
 k[i] = s2[j];
-k[n + count] = '\0';
+k[n + count1] = '\0';
 }
 return (k);
 }
