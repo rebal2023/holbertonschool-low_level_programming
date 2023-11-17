@@ -18,7 +18,7 @@ return (NULL);
 
 k = malloc(nmemb * size);
 
-if (k == NULL)
+if (p == NULL)
 return (NULL);
 
 k = p;
