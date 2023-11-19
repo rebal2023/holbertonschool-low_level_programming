@@ -1,5 +1,12 @@
 #ifndef header_file
 #define header_file
+/**
+* struct dog - a dog's basic info
+* @name: First element
+* @age: Second element
+* @owner: Third element
+* Description: Has 3 elements
+*/
 
 struct dog
 {
