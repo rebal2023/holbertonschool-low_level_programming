@@ -6,6 +6,7 @@
 * main - function
 * @argc: nb of arguments.
 * @argv: Array of pointers.
+* Return: 0
 */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
