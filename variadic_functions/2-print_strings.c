@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
-* print_strings - function that prints strings, followed by a new line.
-* @separator: string to be printed between strings.
-* @n: number of strings passed to the function.
-* @...: variable.
-* Description: If separator is NULL nothing is printed, if 1 string is NULL (nil) is printed
+*print_strings - function that prints strings, followed by a new line.
+*@separator: string to be printed between strings.
+*@n: number of strings passed to the function.
+*@...: variable.
+*Description: If separator is NULL print nothing, if 1 string is NULL print nil
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
