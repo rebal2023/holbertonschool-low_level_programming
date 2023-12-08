@@ -1,5 +1,5 @@
 #include "lists.h"
-#inlcude <stdio.h>
+#include <stdio.h>
 /**
  * first - print before main
  * Return: void
