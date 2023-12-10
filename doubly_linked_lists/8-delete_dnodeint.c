@@ -13,7 +13,6 @@ unsigned int i;
 
 h1 = *head;
 i = 0;
- 
 if (h1 != NULL)
 while (h1->prev != NULL)
 h1 = h1->prev;
