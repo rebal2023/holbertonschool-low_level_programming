@@ -13,14 +13,14 @@ count = 0;
 if (h == NULL)
 return (count);
 
-while (h->pre != NULL)
-h = h->pre;
+while (h->prev != NULL)
+h = h->prev;
 
 while (h != NULL)
 {
 printf("%d\n", h->n);
 count++;
-h = h->post;
+h = h->next;
 }
 return (count);
 }
