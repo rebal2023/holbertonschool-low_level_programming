@@ -1,3 +1,4 @@
+#ifndef MAINH
 #define MAINH
 #include<string.h>
 #include<stdio.h>
